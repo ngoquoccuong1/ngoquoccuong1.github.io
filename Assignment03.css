@@ -15,7 +15,12 @@ body{
          width: 100%;
        }        
     
- 
+ .section-title{
+    text-indent: 50px;
+    padding-left: 10px;
+    font-size: 25px;
+    padding-top:20px;
+}
 
 #about{
         display: grid;
@@ -186,12 +191,7 @@ section > .container{
     height: 200px;
 }
 
-.section-title{
-    text-indent: 50px;
-    padding-left: 10px;
-    font-size: 25px;
-    padding-top:20px;
-}
+
 
 .item1 {
     grid-column: 1 / span 2;
@@ -287,7 +287,7 @@ a{
 }
 
 .big-icons{
-    font-size: 250%;
+    font-size: 30px;
 }
 .left-right{
     border-left: 1px solid gray;
